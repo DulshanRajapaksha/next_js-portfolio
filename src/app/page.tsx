@@ -191,9 +191,20 @@ export default function Home() {
         </div>
 
         {/* footer */}
-        <footer>
+        <footer className="border-t-2 border-black text-sm opacity-70 flex flex-col gap-5">
           <div>
-            
+            <h3>Contact me for more details</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero, sunt doloribus voluptates eius nihil reiciendis ea soluta impedit magni quis ipsum, expedita enim eaque deserunt nam commodi, non aperiam!
+            </p>
+          </div>
+
+          <div>
+            <div className="text-5xl flex justify-center gap-16 text-gray-600">
+            <a href="#"><FaGithub /></a>
+            <a href="#"><FaLinkedin /></a>
+            <a href="#"><FaInstagramSquare /></a>
+          </div>
           </div>
         </footer>
       </main>
